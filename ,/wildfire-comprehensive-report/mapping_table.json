@@ -1,0 +1,1079 @@
+{
+  "_comment": "Topic-level mapping between Google form questions and Excel rubric questions. Use this to merge team self-reports (Google form responses) with Excel rubric coverage (Sage's _rubric_*.json) in the v2 comprehensive report. Each topic may map to 1+ Google question_names and 0+ Excel rubric ids.",
+  "science": [
+    {
+      "topic": "Model Organization Name",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_the_model_organization"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Model Name",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_the_name_of_the_model"
+      ],
+      "excel_rubric_ids": [
+        "q1"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Evaluator Identification",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_your_evaluator_identif"
+      ],
+      "excel_rubric_ids": [
+        "q2"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Reviewed both Forest and Prairie outputs",
+      "form_type": "science",
+      "google_form_names": [
+        "did_you_review_the_model_output"
+      ],
+      "excel_rubric_ids": [
+        "q3"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Model output: static vs dynamic",
+      "form_type": "science",
+      "google_form_names": [
+        "is_the_model_output_considered"
+      ],
+      "excel_rubric_ids": [
+        "q4"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Applied synoptic weather data (dynamic models)",
+      "form_type": "science",
+      "google_form_names": [
+        "did_the_model_apply_the_synopti"
+      ],
+      "excel_rubric_ids": [
+        "q4a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Which weather variables incorporated",
+      "form_type": "science",
+      "google_form_names": [
+        "which_of_the_weather_variables"
+      ],
+      "excel_rubric_ids": [
+        "q4b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "How weather variables were incorporated",
+      "form_type": "science",
+      "google_form_names": [
+        "describe_how_the_model_incorpor"
+      ],
+      "excel_rubric_ids": [
+        "q4c"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Supplemental weather information",
+      "form_type": "science",
+      "google_form_names": [
+        "did_the_model_incorporate_addit"
+      ],
+      "excel_rubric_ids": [
+        "q4d"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Weather conditions/assumptions (static models)",
+      "form_type": "science",
+      "google_form_names": [
+        "did_the_model_apply_any_weather",
+        "describe_which_weather_conditio"
+      ],
+      "excel_rubric_ids": [
+        "q4e"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Ember dispersion / transport",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_model_account_for_embe"
+      ],
+      "excel_rubric_ids": [
+        "q4f"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Ember component tied to weather",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_ember_castdispersion_c"
+      ],
+      "excel_rubric_ids": [
+        "q4g"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Historical occurrence data \u2014 used?",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_model_use_any_historic"
+      ],
+      "excel_rubric_ids": [
+        "q5"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Historical occurrence data \u2014 sources/usage",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_the_sources_of_histori"
+      ],
+      "excel_rubric_ids": [
+        "q5a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Social/population/demographic data \u2014 used?",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_model_use_any_populati"
+      ],
+      "excel_rubric_ids": [
+        "q6"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Social/population/demographic data \u2014 sources/usage",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_the_sources_of_populat"
+      ],
+      "excel_rubric_ids": [
+        "q6a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Fire protection capacity \u2014 included?",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_model_include_any_fire"
+      ],
+      "excel_rubric_ids": [
+        "q7"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Fire protection capacity \u2014 describe",
+      "form_type": "science",
+      "google_form_names": [
+        "describe_what_fire_protection_c"
+      ],
+      "excel_rubric_ids": [
+        "q7a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Output scale / resolution",
+      "form_type": "science",
+      "google_form_names": [
+        "at_what_scale_resolution_is_the"
+      ],
+      "excel_rubric_ids": [
+        "q8"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Which provided synthetic exercise data used",
+      "form_type": "science",
+      "google_form_names": [
+        "which_of_the_provided_synthetic"
+      ],
+      "excel_rubric_ids": [
+        "q9"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Treelist / vegetative fuel data",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_which_of_the_tree_ando"
+      ],
+      "excel_rubric_ids": [
+        "q9a",
+        "q9ai"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Topography / surface features incorporated",
+      "form_type": "science",
+      "google_form_names": [
+        "did_the_model_incorporate_topog"
+      ],
+      "excel_rubric_ids": [
+        "q9b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "How surface data features factor into results",
+      "form_type": "science",
+      "google_form_names": [
+        "describe_how_the_inclusion_of_t"
+      ],
+      "excel_rubric_ids": [
+        "q9bi",
+        "q9bii"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Wildfire propagation/spread component",
+      "form_type": "science",
+      "google_form_names": [
+        "does_it_include_a_wildfire_prop"
+      ],
+      "excel_rubric_ids": [
+        "q9biii"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Building characteristics \u2014 accounted for?",
+      "form_type": "science",
+      "google_form_names": [
+        "did_the_model_account_for_build"
+      ],
+      "excel_rubric_ids": [
+        "q9c"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Which building characteristics accounted for",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_which_of_the_building"
+      ],
+      "excel_rubric_ids": [
+        "q9ci",
+        "q9cii"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Building-level exposures",
+      "form_type": "science",
+      "google_form_names": [
+        "which_of_the_following_does_the"
+      ],
+      "excel_rubric_ids": [
+        "q9ci"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "How building characteristics factor into results",
+      "form_type": "science",
+      "google_form_names": [
+        "field_31"
+      ],
+      "excel_rubric_ids": [
+        "q9ciii"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Building-characteristic insight quality (1-5)",
+      "form_type": "science",
+      "google_form_names": [
+        "on_a_scale_of_1_5_did_the_model"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Probability of flame spread / structure heating",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_model_account_for_prob"
+      ],
+      "excel_rubric_ids": [
+        "q9civ"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Mitigation actions affect risk quantification",
+      "form_type": "science",
+      "google_form_names": [
+        "did_the_model_account_for_mitig"
+      ],
+      "excel_rubric_ids": [
+        "q10"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Types of mitigation actions accounted for",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_which_types_of_mitigat"
+      ],
+      "excel_rubric_ids": [
+        "q10a",
+        "q10b",
+        "q10c"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Additional supplemental data \u2014 included?",
+      "form_type": "science",
+      "google_form_names": [
+        "did_the_model_incorporate_any_a"
+      ],
+      "excel_rubric_ids": [
+        "q11"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Supplemental data types and sources",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_what_specific_types_an"
+      ],
+      "excel_rubric_ids": [
+        "q11a",
+        "q11b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Quantitative spatial distribution of risk",
+      "form_type": "science",
+      "google_form_names": [
+        "what_type_of_quantitative_spati"
+      ],
+      "excel_rubric_ids": [
+        "q12"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Risk score/value \u2014 provided?",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_model_result_provide_a"
+      ],
+      "excel_rubric_ids": [
+        "q13"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Alternate measures (if no risk score)",
+      "form_type": "science",
+      "google_form_names": [
+        "since_the_model_does_not_provid"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Type of risk ranking / score",
+      "form_type": "science",
+      "google_form_names": [
+        "indicate_the_type_of_risk_ranki"
+      ],
+      "excel_rubric_ids": [
+        "q13a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Risk expressed in economic terms",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_risk_ranking_or_score"
+      ],
+      "excel_rubric_ids": [
+        "q13b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "How risk expressed economically",
+      "form_type": "science",
+      "google_form_names": [
+        "describe_how_the_model_expresse"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Effectiveness of risk rank/score (rating)",
+      "form_type": "science",
+      "google_form_names": [
+        "on_a_scale_rate_the_effectivene"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Risk scores that don't align with area",
+      "form_type": "science",
+      "google_form_names": [
+        "were_there_any_risk_scores_rank"
+      ],
+      "excel_rubric_ids": [
+        "q14"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Gaps / misalignment description",
+      "form_type": "science",
+      "google_form_names": [
+        "describe_any_gaps_or_other_resu"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Environment types differentiation (WUI / WUIM)",
+      "form_type": "science",
+      "google_form_names": [
+        "does_the_model_differentiate_be"
+      ],
+      "excel_rubric_ids": [
+        "q16"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "How environment-type distinction handled",
+      "form_type": "science",
+      "google_form_names": [
+        "describe_how_the_model_accounts"
+      ],
+      "excel_rubric_ids": [
+        "q16a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Most effectively modeled environment type",
+      "form_type": "science",
+      "google_form_names": [
+        "which_of_the_following_environm"
+      ],
+      "excel_rubric_ids": [
+        "q17"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Modeling approaches applied",
+      "form_type": "science",
+      "google_form_names": [
+        "which_of_the_following_approach"
+      ],
+      "excel_rubric_ids": [
+        "q18"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Notes on technical approach",
+      "form_type": "science",
+      "google_form_names": [
+        "provide_any_relevant_notes_and"
+      ],
+      "excel_rubric_ids": [
+        "q18a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "AI/ML methods description",
+      "form_type": "science",
+      "google_form_names": [
+        "for_models_that_include_ai_meth"
+      ],
+      "excel_rubric_ids": [
+        "q18b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Primary, appropriate use",
+      "form_type": "science",
+      "google_form_names": [
+        "what_appears_to_be_the_primary"
+      ],
+      "excel_rubric_ids": [
+        "q20"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Secondary, appropriate use",
+      "form_type": "science",
+      "google_form_names": [
+        "what_appears_to_be_the_secondar"
+      ],
+      "excel_rubric_ids": [
+        "q20a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Greatest strengths",
+      "form_type": "science",
+      "google_form_names": [
+        "describe_the_greatest_strengths"
+      ],
+      "excel_rubric_ids": [
+        "q21"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Opportunity to ensemble with other models",
+      "form_type": "science",
+      "google_form_names": [
+        "what_is_the_opportunity_to_ense"
+      ],
+      "excel_rubric_ids": [
+        "q22"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Other Excel-only Q19 \u2014 full Risk measure",
+      "form_type": "science",
+      "google_form_names": [],
+      "excel_rubric_ids": [
+        "q19"
+      ],
+      "coverage": "excel_only"
+    },
+    {
+      "topic": "Other Excel-only Q15 \u2014 environment full Risk meas",
+      "form_type": "science",
+      "google_form_names": [],
+      "excel_rubric_ids": [
+        "q15"
+      ],
+      "coverage": "excel_only"
+    }
+  ],
+  "practitioner": [
+    {
+      "topic": "Model Organization Name",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "indicate_the_model_organization"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Model Name",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "indicate_the_name_of_the_model"
+      ],
+      "excel_rubric_ids": [
+        "q1"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Evaluator Identification",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "indicate_your_evaluator_identif"
+      ],
+      "excel_rubric_ids": [
+        "q2"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Reviewed both Forest and Prairie outputs",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "did_you_review_the_model_output"
+      ],
+      "excel_rubric_ids": [
+        "q2b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Primary use",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "what_appears_to_be_the_primary_"
+      ],
+      "excel_rubric_ids": [
+        "q3"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Secondary use",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "field_59"
+      ],
+      "excel_rubric_ids": [
+        "q4"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Third use",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "what_appears_to_be_a_third_appr"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Informs pre-fire risk reduction decisions",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "does_the_model_clearly_and_dire"
+      ],
+      "excel_rubric_ids": [
+        "q4a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Mitigation actions/investments informed",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "which_types_of_mitigation_actio"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Informs response operations decisions",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "field_88"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Response functions supported",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "which_types_of_response_functio"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Primary decision point",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "indicate_one_primary_decision_p"
+      ],
+      "excel_rubric_ids": [
+        "q4b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Second decision point",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "indicate_a_second_decision_poin"
+      ],
+      "excel_rubric_ids": [
+        "q4c"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Environment types differentiation",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "does_the_model_differentiate_be"
+      ],
+      "excel_rubric_ids": [
+        "q5"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "How environment-type distinction handled",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "field_65"
+      ],
+      "excel_rubric_ids": [
+        "q5a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Most effectively modeled environment type",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "which_of_the_following_environm"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Fire behavior information types",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "which_types_of_fire_behavior_in"
+      ],
+      "excel_rubric_ids": [
+        "q6"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Different fire-behavior variables: veg vs bldg",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "can_you_discern_whether_its_app"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Modes of fire spread",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "what_modes_of_fire_spread_does"
+      ],
+      "excel_rubric_ids": [
+        "q6a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Beyond wildfire spread",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "if_the_model_goes_beyond_wildfi"
+      ],
+      "excel_rubric_ids": [
+        "q6b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Information types provided",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "which_of_the_following_informat"
+      ],
+      "excel_rubric_ids": [
+        "q6c"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Most effective information type",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "which_type_of_information_does"
+      ],
+      "excel_rubric_ids": [
+        "q6d"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Parcel/neighborhood/community insights",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "does_the_model_provide_parcel_n"
+      ],
+      "excel_rubric_ids": [
+        "q7"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Variables that drive parcel-level insights",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "which_of_the_following_variable"
+      ],
+      "excel_rubric_ids": [
+        "q7b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Specific insights model provides",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "indicate_which_of_the_following"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "User can test mitigation strategies (dynamic)",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "for_dynamic_models_can_users_te"
+      ],
+      "excel_rubric_ids": [
+        "q8a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Assumptions/limits/confidence conveyed",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "are_the_assumptions_limitations"
+      ],
+      "excel_rubric_ids": [
+        "q9"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Easy to interpret/understand",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "is_the_model_easy_to_interpret"
+      ],
+      "excel_rubric_ids": [
+        "q9a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Experience reviewing the model",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "describe_your_experience_review"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Applied consistently across locations",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "does_the_model_appear_tot_be_ap"
+      ],
+      "excel_rubric_ids": [
+        "q9b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Disproportionately at-risk populations",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "does_the_model_help_identify_di"
+      ],
+      "excel_rubric_ids": [
+        "q9c"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Quantify avoided losses / ROI",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "does_the_model_quantify_avoided"
+      ],
+      "excel_rubric_ids": [
+        "q9d"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "How avoided-loss insights provided",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "describe_how_the_model_provides"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Quantitative spatial distribution of risk",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "what_type_of_quantitative_spati"
+      ],
+      "excel_rubric_ids": [
+        "q9e"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Risk score/value \u2014 provided?",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "does_the_model_result_provide_a"
+      ],
+      "excel_rubric_ids": [
+        "q9f"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Type of risk ranking / score",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "indicate_the_type_of_risk_ranki"
+      ],
+      "excel_rubric_ids": [
+        "q9g"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Risk expressed in economic terms",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "does_the_risk_ranking_or_score"
+      ],
+      "excel_rubric_ids": [
+        "q9h"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "How risk expressed economically",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "describe_how_the_model_expresse"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Effectiveness of risk rank/score (rating)",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "on_a_scale_rate_the_effectivene"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Risk scores that don't align with area",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "were_there_any_risk_scores_rank"
+      ],
+      "excel_rubric_ids": [
+        "q9j"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Gaps / misalignment description",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "describe_any_gaps_or_other_resu"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Relevant notes on model results",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "provide_any_relevant_notes_and"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    },
+    {
+      "topic": "Top 3 strengths",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "describe_the_models_top_3_stren"
+      ],
+      "excel_rubric_ids": [
+        "q10"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Greatest strengths",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "describe_the_greatest_strengths"
+      ],
+      "excel_rubric_ids": [
+        "q10a"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Opportunity to ensemble with other models",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "what_is_the_opportunity_to_comb"
+      ],
+      "excel_rubric_ids": [
+        "q10b"
+      ],
+      "coverage": "both"
+    },
+    {
+      "topic": "Additional insights from ensembling",
+      "form_type": "practitioner",
+      "google_form_names": [
+        "what_types_of_additional_insigh"
+      ],
+      "excel_rubric_ids": [],
+      "coverage": "google_only"
+    }
+  ]
+}
